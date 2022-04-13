@@ -2142,8 +2142,9 @@ input[type='checkbox'] {
   justify-content: flex-end;
 }
 
-.icon-arrow-invert{
-  
+.invert-arrow{
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
 }
 
 .announcement-bar-button{
@@ -2174,7 +2175,7 @@ input[type='checkbox'] {
   background-color: rgba(var(--color-card-hover), 0.06);
 }
 
-.announcement-bar__link .icon-arrow {
+.announcement-bar__link .icon-arrow .invert-arrow{
   display: inline-block;
   pointer-events: none;
   margin-left: 0.8rem;
