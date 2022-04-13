@@ -2195,6 +2195,15 @@ input[type='checkbox'] {
   letter-spacing: 0.1rem;
 }
 
+@media screen and (max-width: 720px){
+  .announcement-bar-button{
+    flex: 1 0 40px
+  }
+  .announcement-bar__message{
+    flex: 1 0 200px
+  }
+}
+
 /* section-header */
 #shopify-section-header {
   z-index: 3;
